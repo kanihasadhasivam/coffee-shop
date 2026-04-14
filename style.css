@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@200;300;400;500;700;800;900&display=swap');
+
+
+
+
+
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+	font-family: Playfair Display;
+}
+
+#navbar{
+	position: sticky;
+}
+.navbar .container-fluid .navbar-brand{
+	font-family: Tajawal;
+	font-size: 50px;
+	margin-right: 100px;
+	
+	color: #B3AD62;
+}
+.navbar-nav  .nav-item .nav-link{
+	color: whitesmoke;
+	
+	font-size: 22px;
+	
+}
+.navbar-nav  .nav-item .nav-link:hover{
+	font-size: 20px;
+	padding: 7px 10px;
+}
+
+.btn{
+	background-color: #B58F88;
+}
+section{
+	height: 80vh;
+	width: 100%;
+}
+.all{
+	background-image:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.3)), url("coffee.webp");
+	background-size: cover;
+	border-bottom-left-radius: 500px;
+	border-bottom-right-radius: 400px;
+}
+.hello{
+	height: 100vh;
+}
+@media(max-width: 500px){
+	.hello h1{
+		font-size: 80px;
+	}
+}
+h1{
+	font-size: 100px;
+	color: #B8ACA9;
+}
+nav .pagination .page-item a{
+	background-color: transparent;
+	border: none;
+	color: #bfafaa;
+	font-size: 20px;
+}

@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Contact Us.....</title>
+</head>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<style>
+	@import url('https://fonts.googleapis.com/css2?family=Playwrite+IE:wght@100..400&display=swap');
+	@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+		.Contact .img{
+			position: absolute;
+			left: 20px;
+			top: 70px;
+			font-size: 30px;
+			font-family: Playwrite IE;
+			font-weight: bolder;
+			color: #241816;
+			text-shadow: 1px 5px 5px #5A7877;
+		}
+		.contact1{
+			background:linear-gradient(rgba(0, 0, 0, 1),rgba(0, 0, 0, 0.2)), url("bg2.jpg");
+			background-size: cover;
+			height: 30rem;
+			display: flex;
+			justify-content: space-around;
+			align-items: center;
+			max-width: 100%;
+			background-position: center;
+		}
+		.contact2{
+			color: #d9d9d9;
+			font-family: Playwrite IE;
+		}
+		.message{
+			height: 100px;
+		}
+
+		input{
+			background: #e0d3c5;
+			margin: 10px;
+			border: none;
+			border-radius: 10px;
+		}
+		input::placeholder {
+			padding-left: 20px;
+			font-family:Manrope	;
+		}
+		button{
+			margin: 10px;
+			padding: 5px 15px;
+			border-radius: 10px;
+			background-color: transparent;
+			color: white;
+		}
+		@media(max-width: 741px){
+			.contact1{
+				display: flex;
+				flex-direction: column;
+				height: 50rem;
+			}
+		}
+		.last{
+	background-color: #918E8D;
+	line-height: 30px;
+	padding-top: 50px;
+	display: flex;
+	justify-content: center;
+
+}
+.foot{
+	background-color: #332b27;
+	color: white;
+}
+nav .pagination .page-item a{
+  background-color: transparent;
+  border: none;
+  color: #bfafaa;
+  font-size: 20px;
+}
+</style>
+<body>
+<header><div class="Contact position-relative">
+<img src="bg1.jpg" height="200px" width="100%" > <span class="img">CONTACT US</span></div></header>
+
+<section class="contact1">
+	<div class="contact2 text-center lh-lg ">
+		<h4 class="p-4">Contact Us</h4>
+		<i class="fa-solid fa-address-card "></i><font class="m-1 p-1"> 2/99,Gandhi Nagar,Anna Salai,<br> 	Tirupur,Tamilnadu</font><br>
+	
+	<i class="fa-solid fa-envelopes-bulk "></i> <font class="m-1 p-1">  kaffeewithus@gmail.com</font><br>
+	<i class="fa-solid fa-phone "></i> <span class="m-1 p-1">999-645-4253</span></div>
+	<div class="contact3 mt-5">
+		<form>
+			<input type="text" name="" placeholder="Name" size="30px"><br>
+			<input type="text" name="" placeholder="Email" size="30px"><br>
+			<input type="text" name="" placeholder="Phone Number" size="30px"><br>
+			<input type="text" name="" placeholder="message" size="30px" class="message"><br>
+			<button>Submit</button>
+		</form>
+	</div>
+</section>
+
+<section>
+		<div class="last">
+	 <div class="row justify-content-around ">
+    <div class="col-8 col-sm-6 text-center">
+      <div class="contact4 fs-6 p-5">
+			<h4>About Us</h4>
+			<p>A coffee shop is a cozy and inviting place where people gather<br> to enjoy freshly brewed coffee, relax, and socialize. </p>
+		</div>
+    </div>
+    <div class="col-6 text-justify">
+     <div class="contact5 fs-6 p-5">
+			<h4>Stay Connected</h4>
+			<ul type="none">
+				<li>Facebook</li>
+				<li>Instagram</li>
+				<li>Twitter</li>
+			</ul>
+		</div>
+    </div>
+</div>
+</section>
+<nav aria-label="Page navigation example">
+  <ul class="pagination justify-content-center p-2">  
+     <li class="page-item">
+      <a class="page-link" href="index2.html" aria-label="Previous">
+        <span aria-hidden="true">&laquo;</span>
+      </a>
+    </li>
+    <li class="page-item"><a class="page-link " href="index2.html">previous</a></li>
+  </ul>
+</nav>
+<footer class="foot text-center fs-5">
+  copyright<i class="fa-regular fa-copyright"></i>2025 kaffeewithus,inc</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</body>
+</html>
